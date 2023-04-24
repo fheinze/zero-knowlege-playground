@@ -47,6 +47,7 @@ addEntry.addEventListener('click', function (e) {
             entries.appendChild(item);
             updateLocalStorage(CryptoJS.AES.encrypt(entries.innerHTML, passwordInput2.value));
         }
+        
     }
     entryInput.value = "";
 });
